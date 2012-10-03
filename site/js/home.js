@@ -44,7 +44,7 @@ window.addEvent( 'domready' , function(event){
 	$('page-content').setStyle( 'height' , window.getSize().y );
 	loadingTimer = setInterval( function(){
 		counterLoading++;
-		$('loading').setStyle( 'background-position', 'center -' + 36 * ( counterLoading%7 ) + 'px' );
+		//$('loading').setStyle( 'background-position', 'center -' + 36 * ( counterLoading%7 ) + 'px' );
 	} , 100 );
 
 
@@ -807,8 +807,8 @@ function activateProject( project , callback ){
 		( function(){
 
 			project.getElements('.block > .bollonzo > div').morph({
-				'webkitTransform' : [0,360],
-				'MozTransform' : [0,360]
+				'webkitTransform' : [0,0],
+				'MozTransform' : [0,0]
 			});
 
 		} ).delay( timeOfActivate );

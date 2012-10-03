@@ -24,8 +24,8 @@
 	position:absolute;
 	top:0px;
 	left:0px;
-	width:85px;
-	height:85px;
+	width:185px;
+	height:185px;
 	background:url('../images/scozzese-design.png') center center no-repeat transparent;
 	-webkit-transform: rotate(0deg);
 }
@@ -51,7 +51,7 @@
 	left:25px;
 	width:36px;
 	height:36px;
-	background:url('../images/scozzese_loading.png') center top no-repeat #000000;
+	
 }
 
 #loadbar{
@@ -97,7 +97,7 @@
 	display:inline-block;
 	padding:0px 2px;
 	font:14px/15px "SohoStdItalic";
-	color:#838383;
+	color:#fff;
 }
 #header > #menu > a:hover{
 	color:#ffffff;
@@ -824,7 +824,7 @@ div.bollonzo{
 	width:100%;
 	overflow:hidden;
 	background:url('../images/bollonzo-line.png') center center no-repeat transparent;
-	-webkit-transform: rotate(0deg);
+	-webkit-transform: scale(1,1);
 
 }
 div.bollonzo > div {
