@@ -52,20 +52,20 @@ window.addEvent( 'domready' , function(event){
 		'z-index' : 200,
 		'position' : 'fixed',
 		'opacity' : 0,
-		'top' : window.getSize().y / 2,
-		'left' : window.getSize().x / 2 - 170 
-	}).inject( $(document.body) ).morph({ 'opacity' : 1 , 'left' : window.getSize().x / 2 - 150  });
+		'top' : 110,
+		'left' : window.getSize().x / 2 - 150 
+	}).inject( $(document.body) ).morph({ 'opacity' : 1 , 'left' : window.getSize().x / 2 - 180 });
 	( function(){
-		firstLoad.tween('left',window.getSize().x/2 - 140);
+		firstLoad.tween('left',window.getSize().x/2 - 170);
 		( function(){
 			firstLoad.getFirst('span').fade('in');
 			var secondLoad = new Element( 'div' , { 'class': 'loading-claim' , 'html': 'that creates great online experiences' } ).set( 'morph' , { duration: 400 } ).setStyles({
 				'z-index' : 200,
 				'position' : 'fixed',
 				'opacity' : 0,
-				'top' : window.getSize().y / 2  ,
+				'top' : 110  ,
 				'left' : window.getSize().x / 2 - 100
-			}).inject( $(document.body) ).morph({ 'opacity' : 1 , 'left' : window.getSize().x / 2 + 5 });
+			}).inject( $(document.body) ).morph({ 'opacity' : 1 , 'left' : window.getSize().x / 2 -40 });
 			( function(){
 			} ).delay( 400 );
 		} ).delay( 100 );
@@ -112,8 +112,8 @@ window.addEvent( 'domready' , function(event){
 
 	( function(){
 		$('logo').getFirst().morph({
-			'webkitTransform' : [0,-360],
-			'MozTransform' : [0,-360]
+			'webkitTransform' : [0,0],
+			'MozTransform' : [0,0]
 		});
 	} ).delay( 400 );
 

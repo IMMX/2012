@@ -11,7 +11,7 @@
 	display:block;
 	position:absolute;
 	top:0px;
-	left:50%;
+	left:46%;
 	margin-left:-42px;
 /* 	margin-left:-450px; */
 	width:185px;
@@ -23,18 +23,18 @@
 	display:block;
 	position:absolute;
 	top:0px;
-	left:0px;
+	left:-50px;
 	width:285px;
 	height:85px;
 	background:url('../images/logo-white.png') center center no-repeat transparent;
-	-webkit-transform: rotate(0deg);
+	
 }
 #header > #logo > div > div{
 	display:block;
 	position:absolute;
 	top:15px;
-	left:14px;
-	width:156px;
+	left:54px;
+	width:176px;
 	height:56px;
 	background-image:url('../images/play.png');
 	background-position:center center;
@@ -49,7 +49,7 @@
 	position:absolute;
 	top:25px;
 	left:25px;
-	width:136px;
+	width:1px;
 	height:36px;
 	background:url('') center top no-repeat #000000;
 }
@@ -59,7 +59,7 @@
 	position:fixed;
 	z-index:10;
 	top:86px;
-	left:50%;
+	left:46%;
 	margin-left:-42px;
 	height:1px;
 	background-color:#383838;
@@ -70,7 +70,7 @@
 	position:absolute;
 	overflow:hidden;
 	top:0px;
-	left:50%;
+	left:46%;
 	padding-top:33px;
 	margin-left:-263px;
 	width:0px;
@@ -115,8 +115,8 @@
 #map > a {
 	display:block;
 	position:absolute;
-	width:0px;
-	height:0px;
+	width:8px;
+	height:8px;
 	cursor:pointer;
 	background:#ffffff;
 	opacity:0.4;
@@ -419,22 +419,22 @@
 /* PROJECTS STYLES */
 
 .portada > .block {
-	background:#333333;
+	background:#272727;
 }
 #portada-cover {
-	background:url('../images/portada/portada_dongato_BW.jpg') top center no-repeat #333333;
+	background:url('../images/portada/portada_dongato_BW.jpg') top center no-repeat #131313;
 }
 #portada-cover > .highlight {
-	background:url('../images/portada/portada_dongato.jpg') top center no-repeat #333333;
+	background:url('../images/portada/portada_dongato.jpg') top center no-repeat #390F3D;
 }
 .portada > .loaded.second {
-	background:url('../images/portada/interior1_dongato.jpg') top center no-repeat #333333;
+	background:url('../images/portada/interior4_dongato.jpg') top center no-repeat #272727;
 }
 .portada > .loaded.third {
-	background:url('../images/portada/interior2_dongato.jpg') top center no-repeat #333333;
+	background:url('../images/portada/interior2_dongato.jpg') top center no-repeat #272727;
 }
 .portada > .loaded.fourth {
-	background:url('../images/portada/bg.jpg') top center no-repeat #333333;
+	background:url('../images/portada/interior3_dongato.jpg') top center no-repeat #272727;
 }
 
 
@@ -755,7 +755,7 @@ div.staff-container > a{
 .title-sx{
 	display:block;
 	position:relative;
-	margin:0px auto;
+	margin:320px auto;
 	width:900px;
 	text-align:right;
 }
@@ -767,14 +767,14 @@ div.staff-container > a{
 }
 span.project-name{
 	display:inline-block;
-	height:78px;
+	height:48px;
 	padding:0px 10px;
-	font:40px/75px "InsightRegular";
+	font:30px/55px "InsightRegular";
 	color:#ffffff;
-	background-color:transparent;
+	background-color:#000;
 }
 span.project-name.tall{
-	height:90px;
+	height:70px;
 }
 span.project-name.first{
 	position:absolute;
