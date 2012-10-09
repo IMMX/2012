@@ -36,7 +36,7 @@ $extend(Element.Styles, newStyles);
 window.addEvent( 'domready' , function(event){
 
 	if( Browser.Platform.ios ){
-		location.href = 'mobile';
+		location.href = 'mobile.html';
 		return;
 	}
 	$('layer').setStyle( 'height' , $('page-content').getSize().y + window.getSize().y );
