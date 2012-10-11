@@ -86,7 +86,7 @@
 	height:19px;
 	overflow:hidden;
 	padding:0px 10px;
-	font:14px/15px "'InsightRegular'";
+	font:14px/15px "InsightRegular";
 	text-align:center;
 	color:#838383;
 }
@@ -442,7 +442,7 @@
 	background:#000;
 }
 #proyecto2-cover {
-	background:url('../images/proyecto2/portada_BW.jpg') top center no-repeat #000;
+	background:url('../images/proyecto2/portada_BW.jpg') top center no-repeat #1C1A00;
 }
 #proyecto2-cover > .highlight {
 	background:url('../images/proyecto2/portada.jpg') top center no-repeat #000;
@@ -458,43 +458,45 @@
 }
 
 .proyecto3 > .block {
-	background:#272727;
+	background:#000000;
 }
 #proyecto3-cover {
-	background:url('../images/proyecto3/portada_BW.jpg') top center no-repeat #000;
+	background:url('../images/proyecto3/portada_BW.jpg') top center no-repeat #1C1C00;
 }
 #proyecto3-cover > .highlight {
-	background:url('../images/proyecto3/portada.jpg') top center no-repeat #000;
+	background:url('../images/proyecto3/portada.jpg') top center no-repeat #031229;
 }
 .proyecto3 > .loaded.second {
-	background:url('../images/proyecto3/interior1.jpg') top center no-repeat #000;
+	background:url('../images/proyecto3/interior1.jpg') top center no-repeat #272727;
 }
 .proyecto3 > .loaded.third {
-	background:url('../images/proyecto3/interior2.jpg') top center no-repeat #000;
+	background:url('../images/proyecto3/interior2.jpg') top center no-repeat #272727;
 }
 .proyecto3 > .loaded.fourth {
-	background:url('../images/proyecto3/interior3.jpg') top center no-repeat #000;
+	background:url('../images/proyecto3/interior3.jpg') top center no-repeat #272727;
 }
 
 .proyecto4 > .block {
-	background:#272727;
+	background:#000;
 }
 #proyecto4-cover {
-	background:url('../images/proyecto4/portada_BW.jpg') top center no-repeat #000;
+	background:url('../images/proyecto4/portada_BW.jpg') top center no-repeat #191900;
 }
 #proyecto4-cover > .highlight {
-	background:url('../images/proyecto4/portada.jpg') top center no-repeat #000;
+	background:url('../images/proyecto4/portada.jpg') top center no-repeat #090C15;
 }
 .proyecto4 > .loaded.second {
-	background:url('../images/proyecto4/interior1.jpg') top center no-repeat #000;
+	background:url('../images/proyecto4/interior1.jpg') top center no-repeat #272727;
 }
 .proyecto4 > .loaded.third {
-	background:url('../images/proyecto4/interior2.jpg') top center no-repeat #000;
+	background:url('../images/proyecto4/interior2.jpg') top center no-repeat #272727;
 }
 .proyecto4 > .loaded.fourth {
-	background:url('../images/proyecto4/interior3.jpg') top center no-repeat #000;
+	background:url('../images/proyecto4/interior3.jpg') top center no-repeat #272727;
 }
-
+.proyecto4 > .loaded.fifth {
+	background:url('../images/proyecto4/interior4.jpg') top center no-repeat #272727;
+}
 .proyecto5 > .block {
 	background:#272727;
 }
@@ -505,22 +507,24 @@
 	background:url('../images/proyecto5/portada.jpg') top center no-repeat #000;
 }
 .proyecto5 > .loaded.second {
-	background:url('../images/proyecto5/interior1.jpg') top center no-repeat #000;
+	background:url('../images/proyecto5/interior1.jpg') top center no-repeat #272727;
 }
 .proyecto5 > .loaded.third {
-	background:url('../images/proyecto5/interior2.jpg') top center no-repeat #000;
+	background:url('../images/proyecto5/interior2.jpg') top center no-repeat #272727;
 }
 .proyecto5 > .loaded.fourth {
-	background:url('../images/proyecto5/interior3.jpg') top center no-repeat #000;
+	background:url('../images/proyecto5/interior3.jpg') top center no-repeat #272727;
 }
-
+.proyecto5 > .loaded.fifth {
+	background:url('../images/proyecto4/interior4.jpg') top center no-repeat #272727;
+}
 
 
 
 .staff > .block {
 	background:#000000;
 	height:630px;
-	padding-top:20px;
+	padding-top:25px;
 }
 #staff-cover {ƒlove
 	background:url('../images/quienes.jpg') top center no-repeat #000000;
@@ -557,6 +561,7 @@ div.staff-container > h5{
 	display:block;
 	position:relative;
 	margin-left:156px;
+	margin-top:5px;
 	color:#ffffff;
 	font:50px/45px "InsightRegular";
 }
@@ -606,9 +611,9 @@ div.staff-container > a{
 }
 span.project-name{
 	display:inline-block;
-	height:48px;
-	padding:0px 10px;
-	font:30px/55px "InsightRegular";
+	height:34px;
+	padding:10px 10px;
+	font:30px/30px "InsightRegular";
 	color:#ffffff;
 	background-color:#000;
 }
