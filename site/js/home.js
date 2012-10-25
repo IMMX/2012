@@ -36,7 +36,7 @@ $extend(Element.Styles, newStyles);
 window.addEvent( 'domready' , function(event){
 
 	if( Browser.Platform.ios ){
-		location.href = 'mobile';
+		location.href = 'mobile.html';
 		return;
 	}
 	$('layer').setStyle( 'height' , $('page-content').getSize().y + window.getSize().y );
@@ -464,7 +464,7 @@ function initAnimations(){
 
 	} ).addEvent( 'click' , function(event){
 		event.stop();
-		location.href='mailto:edgarbarrios@sinsightmedia.com.mx?subject=Info request';
+		location.href='mailto:equipo@sinsightmedia.com.mx?subject=Información Adicional';
 	} );
 
 	$$('.links > a').addEvent( 'mouseenter' , function() {
